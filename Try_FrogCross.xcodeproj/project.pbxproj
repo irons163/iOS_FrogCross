@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55E94981BC4F706002E67EF /* FrogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94971BC4F706002E67EF /* FrogUtil.m */; };
+		B55E949B1BC4FEEB002E67EF /* MovingObjectUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E949A1BC4FEEB002E67EF /* MovingObjectUtil.m */; };
+		B55E949E1BC5013A002E67EF /* CarUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E949D1BC5013A002E67EF /* CarUtil.m */; };
+		B55E94A11BC50170002E67EF /* WoodUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94A01BC50170002E67EF /* WoodUtil.m */; };
+		B55E94A41BC5018B002E67EF /* BoatUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E94A31BC5018B002E67EF /* BoatUtil.m */; };
+		B57AF99D1B1F079600979D53 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AF99C1B1F079500979D53 /* CommonUtil.m */; };
+		B57AF9A01B2174BC00979D53 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AF99F1B2174BC00979D53 /* Reachability.m */; };
+		B57AF9A41B21A50900979D53 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AF9A31B21A50900979D53 /* test.m */; };
 		B5C4B6301B1DAE0600D71FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C4B62F1B1DAE0600D71FB2 /* main.m */; };
 		B5C4B6331B1DAE0600D71FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C4B6321B1DAE0600D71FB2 /* AppDelegate.m */; };
 		B5C4B6361B1DAE0600D71FB2 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C4B6351B1DAE0600D71FB2 /* GameScene.m */; };
@@ -16,6 +24,10 @@
 		B5C4B6401B1DAE0600D71FB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C4B63F1B1DAE0600D71FB2 /* Images.xcassets */; };
 		B5C4B6431B1DAE0600D71FB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C4B6411B1DAE0600D71FB2 /* LaunchScreen.xib */; };
 		B5C4B64F1B1DAE0700D71FB2 /* Try_FrogCrossTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C4B64E1B1DAE0700D71FB2 /* Try_FrogCrossTests.m */; };
+		B5C4B65E1B1DAE5000D71FB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C4B6591B1DAE5000D71FB2 /* ViewController.m */; };
+		B5C4B65F1B1DAE5000D71FB2 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C4B65B1B1DAE5000D71FB2 /* MyScene.m */; };
+		B5C4B6601B1DAE5000D71FB2 /* TextureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C4B65D1B1DAE5000D71FB2 /* TextureHelper.m */; };
+		B5C4B6621B1DAE9A00D71FB2 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C4B6611B1DAE9A00D71FB2 /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +41,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B55E94961BC4F706002E67EF /* FrogUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrogUtil.h; sourceTree = "<group>"; };
+		B55E94971BC4F706002E67EF /* FrogUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrogUtil.m; sourceTree = "<group>"; };
+		B55E94991BC4FEEB002E67EF /* MovingObjectUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingObjectUtil.h; sourceTree = "<group>"; };
+		B55E949A1BC4FEEB002E67EF /* MovingObjectUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingObjectUtil.m; sourceTree = "<group>"; };
+		B55E949C1BC5013A002E67EF /* CarUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarUtil.h; sourceTree = "<group>"; };
+		B55E949D1BC5013A002E67EF /* CarUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarUtil.m; sourceTree = "<group>"; };
+		B55E949F1BC50170002E67EF /* WoodUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoodUtil.h; sourceTree = "<group>"; };
+		B55E94A01BC50170002E67EF /* WoodUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoodUtil.m; sourceTree = "<group>"; };
+		B55E94A21BC5018B002E67EF /* BoatUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoatUtil.h; sourceTree = "<group>"; };
+		B55E94A31BC5018B002E67EF /* BoatUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoatUtil.m; sourceTree = "<group>"; };
+		B57AF99B1B1F079500979D53 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		B57AF99C1B1F079500979D53 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		B57AF99E1B2174BC00979D53 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B57AF99F1B2174BC00979D53 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B57AF9A21B21A50900979D53 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		B57AF9A31B21A50900979D53 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		B5C4B62A1B1DAE0600D71FB2 /* Try_FrogCross.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Try_FrogCross.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C4B62E1B1DAE0600D71FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5C4B62F1B1DAE0600D71FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +73,13 @@
 		B5C4B6481B1DAE0700D71FB2 /* Try_FrogCrossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try_FrogCrossTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C4B64D1B1DAE0700D71FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5C4B64E1B1DAE0700D71FB2 /* Try_FrogCrossTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Try_FrogCrossTests.m; sourceTree = "<group>"; };
+		B5C4B6581B1DAE5000D71FB2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5C4B6591B1DAE5000D71FB2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5C4B65A1B1DAE5000D71FB2 /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		B5C4B65B1B1DAE5000D71FB2 /* MyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		B5C4B65C1B1DAE5000D71FB2 /* TextureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureHelper.h; sourceTree = "<group>"; };
+		B5C4B65D1B1DAE5000D71FB2 /* TextureHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureHelper.m; sourceTree = "<group>"; };
+		B5C4B6611B1DAE9A00D71FB2 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C4B6621B1DAE9A00D71FB2 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,9 +101,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B57AF9A11B21A4D200979D53 /* VAL */ = {
+			isa = PBXGroup;
+			children = (
+				B57AF9A21B21A50900979D53 /* test.h */,
+				B57AF9A31B21A50900979D53 /* test.m */,
+			);
+			name = VAL;
+			sourceTree = "<group>";
+		};
 		B5C4B6211B1DAE0600D71FB2 = {
 			isa = PBXGroup;
 			children = (
+				B57AF9A11B21A4D200979D53 /* VAL */,
+				B5C4B6611B1DAE9A00D71FB2 /* GoogleMobileAds.framework */,
 				B5C4B62C1B1DAE0600D71FB2 /* Try_FrogCross */,
 				B5C4B64B1B1DAE0700D71FB2 /* Try_FrogCrossTests */,
 				B5C4B62B1B1DAE0600D71FB2 /* Products */,
@@ -86,6 +133,8 @@
 		B5C4B62C1B1DAE0600D71FB2 /* Try_FrogCross */ = {
 			isa = PBXGroup;
 			children = (
+				B57AF99E1B2174BC00979D53 /* Reachability.h */,
+				B57AF99F1B2174BC00979D53 /* Reachability.m */,
 				B5C4B6311B1DAE0600D71FB2 /* AppDelegate.h */,
 				B5C4B6321B1DAE0600D71FB2 /* AppDelegate.m */,
 				B5C4B6341B1DAE0600D71FB2 /* GameScene.h */,
@@ -93,10 +142,28 @@
 				B5C4B6371B1DAE0600D71FB2 /* GameScene.sks */,
 				B5C4B6391B1DAE0600D71FB2 /* GameViewController.h */,
 				B5C4B63A1B1DAE0600D71FB2 /* GameViewController.m */,
+				B5C4B6581B1DAE5000D71FB2 /* ViewController.h */,
+				B5C4B6591B1DAE5000D71FB2 /* ViewController.m */,
+				B5C4B65A1B1DAE5000D71FB2 /* MyScene.h */,
+				B5C4B65B1B1DAE5000D71FB2 /* MyScene.m */,
+				B5C4B65C1B1DAE5000D71FB2 /* TextureHelper.h */,
+				B5C4B65D1B1DAE5000D71FB2 /* TextureHelper.m */,
+				B57AF99B1B1F079500979D53 /* CommonUtil.h */,
+				B57AF99C1B1F079500979D53 /* CommonUtil.m */,
 				B5C4B63C1B1DAE0600D71FB2 /* Main.storyboard */,
 				B5C4B63F1B1DAE0600D71FB2 /* Images.xcassets */,
 				B5C4B6411B1DAE0600D71FB2 /* LaunchScreen.xib */,
 				B5C4B62D1B1DAE0600D71FB2 /* Supporting Files */,
+				B55E94961BC4F706002E67EF /* FrogUtil.h */,
+				B55E94971BC4F706002E67EF /* FrogUtil.m */,
+				B55E94991BC4FEEB002E67EF /* MovingObjectUtil.h */,
+				B55E949A1BC4FEEB002E67EF /* MovingObjectUtil.m */,
+				B55E949C1BC5013A002E67EF /* CarUtil.h */,
+				B55E949D1BC5013A002E67EF /* CarUtil.m */,
+				B55E949F1BC50170002E67EF /* WoodUtil.h */,
+				B55E94A01BC50170002E67EF /* WoodUtil.m */,
+				B55E94A21BC5018B002E67EF /* BoatUtil.h */,
+				B55E94A31BC5018B002E67EF /* BoatUtil.m */,
 			);
 			path = Try_FrogCross;
 			sourceTree = "<group>";
@@ -228,10 +295,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55E94A11BC50170002E67EF /* WoodUtil.m in Sources */,
+				B5C4B6601B1DAE5000D71FB2 /* TextureHelper.m in Sources */,
+				B5C4B65F1B1DAE5000D71FB2 /* MyScene.m in Sources */,
 				B5C4B63B1B1DAE0600D71FB2 /* GameViewController.m in Sources */,
 				B5C4B6331B1DAE0600D71FB2 /* AppDelegate.m in Sources */,
 				B5C4B6361B1DAE0600D71FB2 /* GameScene.m in Sources */,
+				B57AF9A41B21A50900979D53 /* test.m in Sources */,
 				B5C4B6301B1DAE0600D71FB2 /* main.m in Sources */,
+				B57AF99D1B1F079600979D53 /* CommonUtil.m in Sources */,
+				B57AF9A01B2174BC00979D53 /* Reachability.m in Sources */,
+				B55E94981BC4F706002E67EF /* FrogUtil.m in Sources */,
+				B55E949B1BC4FEEB002E67EF /* MovingObjectUtil.m in Sources */,
+				B5C4B65E1B1DAE5000D71FB2 /* ViewController.m in Sources */,
+				B55E949E1BC5013A002E67EF /* CarUtil.m in Sources */,
+				B55E94A41BC5018B002E67EF /* BoatUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +431,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Try_FrogCross/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +445,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Try_FrogCross/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +508,7 @@
 				B5C4B6541B1DAE0700D71FB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C4B6551B1DAE0700D71FB2 /* Build configuration list for PBXNativeTarget "Try_FrogCrossTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +517,7 @@
 				B5C4B6571B1DAE0700D71FB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
